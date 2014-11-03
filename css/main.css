@@ -115,4 +115,33 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Lora", serif; }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.pull-right {
+  float: right; }
+
+.pull-left {
+  float: left; }
+
+.top-nav {
+  background-color: white;
+  height: 26px; }
+  .top-nav .social li, .top-nav .menu li {
+    display: inline-block;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    margin-top: 5px; }
+  .top-nav .social li {
+    padding-right: 50px; }
+  .top-nav .menu li {
+    padding-left: 50px; }
+  .top-nav .social a, .top-nav .menu a {
+    text-decoration: none; }
+
+.jumbotron {
+  background-color: yellow; }
+
 /*# sourceMappingURL=main.css.map */
