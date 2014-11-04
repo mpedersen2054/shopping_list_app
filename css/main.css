@@ -21,7 +21,7 @@
 
 [class*="-col"] {
   float: left;
-  margin: 1% 0 1% 1.5%; }
+  margin: 1% 0 1% 0; }
 
 [class*="-col"]:last-child {
   margin-right: 0; }
@@ -36,7 +36,7 @@
   width: 23.87%; }
 
 .four-col {
-  width: 32.33%; }
+  width: 33.33333%; }
 
 .five-col {
   width: 40.79%; }
@@ -139,9 +139,49 @@ h1, h2, h3, h4, h5, h6 {
   .top-nav .menu li {
     padding-left: 50px; }
   .top-nav .social a, .top-nav .menu a {
+    color: #354458;
     text-decoration: none; }
 
 .jumbotron {
-  background-color: yellow; }
+  background-color: #354458;
+  color: white;
+  height: 420px; }
+  .jumbotron hgroup {
+    width: 800px;
+    margin: 0 auto;
+    padding: 120px 40px 60px; }
+  .jumbotron h1 {
+    font-size: 5em;
+    font-weight: 600;
+    font-family: "Maven Pro", sans-serif;
+    margin-bottom: 20px; }
+  .jumbotron h2 {
+    font-size: 1.6em;
+    margin-bottom: 32px; }
+  .jumbotron button {
+    background-color: #EB7260;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 130px;
+    height: 34px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-right: 66px; }
+
+footer {
+  height: 39px; }
+
+.about-app {
+  height: 360px; }
+  .about-app .tile {
+    position: relative;
+    height: 360px;
+    border: 1px solid red;
+    margin-top: 0;
+    padding: 35px; }
 
 /*# sourceMappingURL=main.css.map */
