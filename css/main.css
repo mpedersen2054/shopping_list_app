@@ -126,6 +126,27 @@ h1, h2, h3, h4, h5, h6 {
 .pull-left {
   float: left; }
 
+.red-about {
+  color: rgba(235, 114, 96, 0.8) !important; }
+
+.teal-about {
+  color: rgba(41, 171, 164, 0.8) !important; }
+
+.lblue-about {
+  color: rgba(58, 154, 217, 0.8) !important; }
+
+.teal-background {
+  background-color: rgba(41, 171, 164, 0.8) !important;
+  color: #e9e0d6; }
+
+.blue-background {
+  background-color: rgba(58, 154, 217, 0.8) !important;
+  color: #e9e0d6; }
+
+.red-background {
+  background-color: rgba(235, 114, 96, 0.8) !important;
+  color: #e9e0d6; }
+
 .top-nav {
   background-color: white;
   height: 26px; }
@@ -139,7 +160,8 @@ h1, h2, h3, h4, h5, h6 {
   .top-nav .menu li {
     padding-left: 50px; }
   .top-nav .social a, .top-nav .menu a {
-    color: #354458;
+    color: #eb7260;
+    font-weight: bold;
     text-decoration: none; }
 
 .jumbotron {
@@ -159,7 +181,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.6em;
     margin-bottom: 32px; }
   .jumbotron button {
-    background-color: #EB7260;
+    background-color: #eb7260;
     color: white;
     border: none;
     border-radius: 4px;
@@ -176,12 +198,26 @@ footer {
   height: 39px; }
 
 .about-app {
-  height: 360px; }
+  height: 420px; }
   .about-app .tile {
     position: relative;
-    height: 360px;
-    border: 1px solid red;
+    height: 420px;
+    border: 1px solid #e9e0d6;
     margin-top: 0;
-    padding: 35px; }
+    padding: 65px 35px;
+    text-align: center; }
+    .about-app .tile i {
+      color: rgba(53, 68, 88, 0.6);
+      font-size: 14em; }
+    .about-app .tile h3 {
+      font-family: "Maven Pro", sans-serif;
+      color: rgba(53, 68, 88, 0.9);
+      font-size: 1.8em;
+      text-align: left;
+      padding: 0 20px;
+      margin-top: 40px; }
+    .about-app .tile .start-shopping {
+      margin-left: 40px;
+      font-size: 2.4em; }
 
 /*# sourceMappingURL=main.css.map */
