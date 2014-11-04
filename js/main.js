@@ -25,9 +25,11 @@ $(document).ready(function () {
   $('#large-task-button').on('mousedown', function () {
     var value = $('#large-task').val();
     $('.task-list').append('<li class="task"><h4> '+value+'</h4></li>');
+  })
+  .on('mouseup', function () {
     $('#large-task-button').hide();
     $('#large-task').hide();
-    $('#task').show().val('');
+    $('#task').show().val('').focus();
   });
 
 });
