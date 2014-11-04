@@ -7,12 +7,32 @@
 @import 'pieces/about-app'
 @import 'pieces/footer'
 
-// $dark-blue: #354458
-// $light-blue: #3A9AD9
-// $teal: #29ABA4
-// $white: #E9E0D6
-// $red: #EB7260
 
-// about-app 360px
-// footer 39px
+main
+  min-height: 600px
+  margin-top: 50px
+
+.left-side, .right-side
+  background-color: $white
+  padding: 30px
+  border-radius: 6px
+  min-height: 700px
+
+.left-side
+  #task
+    width: 100%
+    height: 40px
+    border: 2px solid rgba(53,68,88, 0.6)
+    font-size: 1.2em
+    text-align: center
+  .tooltip
+    margin-top: 5px
+    .check
+      font-size: 0.7em
+      color: $red
+      margin-right: 5px
+    .tip
+      margin-bottom: 5px
+
+.right-side
 
