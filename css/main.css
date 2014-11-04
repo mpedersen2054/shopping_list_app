@@ -135,21 +135,10 @@ h1, h2, h3, h4, h5, h6 {
 .lblue-about {
   color: rgba(58, 154, 217, 0.8) !important; }
 
-.teal-background {
-  background-color: rgba(41, 171, 164, 0.8) !important;
-  color: #e9e0d6; }
-
-.blue-background {
-  background-color: rgba(58, 154, 217, 0.8) !important;
-  color: #e9e0d6; }
-
-.red-background {
-  background-color: rgba(235, 114, 96, 0.8) !important;
-  color: #e9e0d6; }
-
 .top-nav {
   background-color: white;
-  height: 26px; }
+  height: 26px;
+  border-bottom: 2px solid rgba(53, 68, 88, 0.6); }
   .top-nav .social li, .top-nav .menu li {
     display: inline-block;
     font-size: 1.2em;
@@ -194,9 +183,6 @@ h1, h2, h3, h4, h5, h6 {
     cursor: pointer;
     margin-right: 66px; }
 
-footer {
-  height: 39px; }
-
 .about-app {
   height: 420px; }
   .about-app .tile {
@@ -219,5 +205,8 @@ footer {
     .about-app .tile .start-shopping {
       margin-left: 40px;
       font-size: 2.4em; }
+
+footer {
+  height: 39px; }
 
 /*# sourceMappingURL=main.css.map */
