@@ -232,6 +232,19 @@ main {
   border-radius: 3px;
   font-size: 1.2em;
   padding-left: 12px; }
+.left-side #large-task {
+  display: none;
+  font-size: 1.2em;
+  padding: 8px;
+  border: 2px solid rgba(53, 68, 88, 0.6); }
+.left-side #large-task-button {
+  display: none;
+  background-color: #eb7260;
+  color: white;
+  width: 100px;
+  height: 20px;
+  border: none;
+  margin: 5px 0; }
 .left-side .tooltip {
   margin-top: 5px; }
   .left-side .tooltip .check {
