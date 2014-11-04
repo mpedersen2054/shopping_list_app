@@ -166,7 +166,8 @@ h1, h2, h3, h4, h5, h6 {
   .jumbotron hgroup {
     width: 800px;
     margin: 0 auto;
-    padding: 120px 40px 60px; }
+    padding: 120px 40px 60px;
+    text-shadow: 1px 1px 4px #000; }
   .jumbotron h1 {
     font-size: 5em;
     font-weight: 600;
@@ -223,7 +224,9 @@ main {
   background-color: #e9e0d6;
   padding: 30px;
   border-radius: 6px;
-  min-height: 700px; }
+  min-height: 700px;
+  border-right: 3px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 3px solid rgba(0, 0, 0, 0.2); }
 
 .left-side #task {
   width: 100%;
