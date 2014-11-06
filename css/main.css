@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
 .top-nav {
   background-color: white;
   height: 26px;
-  border-bottom: 2px solid rgba(53, 68, 88, 0.6); }
+  border-bottom: 1px solid rgba(53, 68, 88, 0.6); }
   .top-nav .social li, .top-nav .menu li {
     display: inline-block;
     font-size: 1.2em;
@@ -164,14 +164,17 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
   height: 420px; }
   .jumbotron hgroup {
+    position: relative;
+    left: 65px;
     width: 800px;
     margin: 0 auto;
     padding: 120px 40px 60px;
     text-shadow: 1px 1px 4px #000; }
   .jumbotron h1 {
-    font-size: 5em;
+    font-size: 5.4em;
     font-weight: 600;
-    font-family: "Maven Pro", sans-serif;
+    font-family: "Lobster Two", cursive;
+    letter-spacing: 1.2px;
     margin-bottom: 20px; }
   .jumbotron h2 {
     font-size: 1.6em;
@@ -216,16 +219,40 @@ h1, h2, h3, h4, h5, h6 {
 footer {
   height: 39px; }
 
+.main-top-nav {
+  height: 50px;
+  background-color: #354458; }
+  .main-top-nav .logo {
+    margin-top: 7px; }
+    .main-top-nav .logo a {
+      text-decoration: none;
+      font-family: "Lobster Two", cursive;
+      letter-spacing: 1.2px;
+      font-size: 2.4em;
+      color: white; }
+  .main-top-nav ul li {
+    display: inline-block;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    margin-top: 15px; }
+    .main-top-nav ul li:last-child {
+      margin-right: 10px; }
+    .main-top-nav ul li a {
+      text-decoration: none;
+      padding-left: 50px;
+      color: white;
+      font-size: 1.2em; }
+
 main {
   min-height: 600px;
-  margin-top: 50px; }
+  margin-top: 40px; }
 
 .left-side, .right-side {
   background-color: #e9e0d6;
   padding: 30px;
   border-radius: 6px;
   min-height: 700px;
-  border-right: 3px solid rgba(0, 0, 0, 0.2);
+  border-right: 2px solid rgba(0, 0, 0, 0.2);
   border-bottom: 3px solid rgba(0, 0, 0, 0.2); }
 
 .left-side #task {
