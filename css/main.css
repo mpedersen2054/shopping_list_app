@@ -331,7 +331,10 @@ footer {
   border-radius: 6px;
   color: #e9e0d6;
   text-shadow: 1px 1px 1px #000;
-  cursor: pointer; }
+  cursor: pointer;
+  opacity: 0.9; }
+  .right-side .task:hover {
+    opacity: 1; }
   .right-side .task p {
     font-size: 1.2em; }
   .right-side .task .state {
@@ -343,15 +346,15 @@ footer {
     letter-spacing: 1.2px;
     background-color: rgba(0, 0, 0, 0.2); }
 
-.green-complete, .red-incomplete {
-  opacity: 0.85; }
-  .green-complete:hover, .red-incomplete:hover {
+.complete, .incomplete {
+  opacity: 0.9; }
+  .complete:hover, .incomplete:hover {
     opacity: 1; }
 
-.green-complete {
+.complete {
   background-color: #2ecc71; }
 
-.red-incomplete {
+.incomplete {
   background-color: #e74c3c; }
 
 /*# sourceMappingURL=main.css.map */

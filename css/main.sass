@@ -34,6 +34,9 @@
     color: $white
     text-shadow: 1px 1px 1px #000
     cursor: pointer
+    opacity: 0.9
+    &:hover
+      opacity: 1.0
     p
       font-size: 1.2em
     .state
@@ -46,13 +49,13 @@
       background-color: rgba(0,0,0,0.2)
 
 
-.green-complete, .red-incomplete
-  opacity: 0.85
+.complete, .incomplete
+  opacity: 0.9
   &:hover
     opacity: 1.0
-.green-complete
+.complete
   background-color: $green-complete
-.red-incomplete
+.incomplete
   background-color: $red-incomplete
 
 
