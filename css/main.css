@@ -345,16 +345,13 @@ footer {
     font-size: 0.6em;
     letter-spacing: 1.2px;
     background-color: rgba(0, 0, 0, 0.2); }
-
-.complete, .incomplete {
+.right-side .complete, .right-side .incomplete {
   opacity: 0.9; }
-  .complete:hover, .incomplete:hover {
+  .right-side .complete:hover, .right-side .incomplete:hover {
     opacity: 1; }
-
-.complete {
+.right-side .complete {
   background-color: #2ecc71; }
-
-.incomplete {
+.right-side .incomplete {
   background-color: #e74c3c; }
 
 /*# sourceMappingURL=main.css.map */

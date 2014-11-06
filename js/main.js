@@ -1,7 +1,7 @@
 
 $(document).ready(function () {
 
-  // add text from input and other functionality
+  // add text from input and other keyboard functionality
   $('#task').on('keydown', function (e) {
 
     if (e.which == 13) {
@@ -38,16 +38,19 @@ $(document).ready(function () {
   // toggle task completion state
   $('.task-list').on('click', '.task', function () {
 
+    // toggle to incomplete
     if ($(this).is('.complete')) {
       $(this).removeClass('complete');
       $(this).addClass('incomplete');
-      $(this).find('.state').text('incomplete');
       $('.task-list').prepend($(this));
+      $(this).css('opacity', '1.0');
+
+    // toggle to complete
     } else {
       $(this).removeClass('incomplete');
       $(this).addClass('complete');
-      $(this).find('.state').text('complete');
       $('.task-list').append($(this));
+      $(this).css('opacity', '0.5');
     }
 
   });
@@ -55,9 +58,12 @@ $(document).ready(function () {
   // sort 2 states
   $('.task').each(function (i) {
     if ($(this).is('.complete')) {
-      $('.task-list').append($(this))
+      $(this).find('.state').text('complete');
+      $('.task-list').append($(this));
+      $(this).css('opacity', '0.5');
     } else {
-      $('.task-list').prepend($(this))
+      $(this).find('.state').text('incomplete');
+      $('.task-list').prepend($(this));
     }
   })
 
