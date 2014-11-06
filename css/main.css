@@ -181,7 +181,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 32px; }
   .jumbotron button {
     background-color: #eb7260;
-    color: white;
     border: none;
     border-radius: 4px;
     width: 130px;
@@ -192,6 +191,9 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
     cursor: pointer;
     margin-right: 66px; }
+    .jumbotron button a {
+      color: white;
+      text-decoration: none; }
 
 .about-app {
   height: 420px; }
