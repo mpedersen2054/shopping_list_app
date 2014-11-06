@@ -42,12 +42,23 @@ $(document).ready(function () {
       $(this).removeClass('complete');
       $(this).addClass('incomplete');
       $(this).find('.state').text('incomplete');
+      $('.task-list').prepend($(this));
     } else {
       $(this).removeClass('incomplete');
       $(this).addClass('complete');
       $(this).find('.state').text('complete');
+      $('.task-list').append($(this));
     }
 
   });
+
+  // sort 2 states
+  $('.task').each(function (i) {
+    if ($(this).is('.complete')) {
+      $('.task-list').append($(this))
+    } else {
+      $('.task-list').prepend($(this))
+    }
+  })
 
 });
