@@ -169,7 +169,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 800px;
     margin: 0 auto;
     padding: 120px 40px 60px;
-    text-shadow: 1px 1px 4px #3a9ad9; }
+    text-shadow: 1px 1px 4px #000; }
   .jumbotron h1 {
     font-size: 5.4em;
     font-weight: 600;
@@ -217,15 +217,6 @@ h1, h2, h3, h4, h5, h6 {
     .about-app .tile .start-shopping {
       margin-left: 40px;
       font-size: 2.4em; }
-
-footer {
-  height: 50px;
-  background-color: #354458;
-  color: white;
-  text-align: right; }
-  footer .copyright {
-    font-size: 1.2em;
-    margin-top: 10px; }
 
 .main-top-nav {
   height: 50px;
@@ -311,6 +302,15 @@ main {
     line-height: 1.4;
     padding: 0 30px;
     margin-bottom: 12px; }
+
+footer {
+  height: 50px;
+  background-color: #354458;
+  color: white;
+  text-align: right; }
+  footer .copyright {
+    font-size: 1.2em;
+    margin-top: 10px; }
 
 .right-side h2 {
   font-size: 3.4em;
