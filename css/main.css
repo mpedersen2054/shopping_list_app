@@ -205,7 +205,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 65px 35px;
     text-align: center; }
     .about-app .tile i {
-      color: rgba(53, 68, 88, 0.6);
+      color: rgba(46, 204, 113, 0.6);
       font-size: 14em; }
     .about-app .tile h3 {
       font-family: "Maven Pro", sans-serif;
@@ -322,5 +322,36 @@ footer {
 .right-side .task-list {
   margin-top: 40px;
   font-size: 1.4em; }
+.right-side .task {
+  position: relative;
+  min-height: 70px;
+  width: 100%;
+  padding: 10px 40px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  color: #e9e0d6;
+  text-shadow: 1px 1px 1px #000;
+  cursor: pointer; }
+  .right-side .task p {
+    font-size: 1.2em; }
+  .right-side .task .state {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0 40px 10px 0;
+    font-size: 0.6em;
+    letter-spacing: 1.2px;
+    background-color: rgba(0, 0, 0, 0.2); }
+
+.green-complete, .red-incomplete {
+  opacity: 0.85; }
+  .green-complete:hover, .red-incomplete:hover {
+    opacity: 1; }
+
+.green-complete {
+  background-color: #2ecc71; }
+
+.red-incomplete {
+  background-color: #e74c3c; }
 
 /*# sourceMappingURL=main.css.map */

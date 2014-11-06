@@ -24,5 +24,35 @@
     margin-top: 40px
     font-size: 1.4em
 
+  .task
+    position: relative
+    min-height: 70px
+    width: 100%
+    padding: 10px 40px
+    margin-bottom: 10px
+    border-radius: 6px
+    color: $white
+    text-shadow: 1px 1px 1px #000
+    cursor: pointer
+    p
+      font-size: 1.2em
+    .state
+      position: absolute
+      bottom: 0
+      right: 0
+      margin: 0 40px 10px 0
+      font-size: 0.6em
+      letter-spacing: 1.2px
+      background-color: rgba(0,0,0,0.2)
+
+
+.green-complete, .red-incomplete
+  opacity: 0.85
+  &:hover
+    opacity: 1.0
+.green-complete
+  background-color: $green-complete
+.red-incomplete
+  background-color: $red-incomplete
 
 
