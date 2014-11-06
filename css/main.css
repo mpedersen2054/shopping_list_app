@@ -219,7 +219,13 @@ h1, h2, h3, h4, h5, h6 {
       font-size: 2.4em; }
 
 footer {
-  height: 39px; }
+  height: 50px;
+  background-color: #354458;
+  color: white;
+  text-align: right; }
+  footer .copyright {
+    font-size: 1.2em;
+    margin-top: 10px; }
 
 .main-top-nav {
   height: 50px;
@@ -255,7 +261,8 @@ main {
   border-radius: 6px;
   min-height: 700px;
   border-right: 2px solid rgba(0, 0, 0, 0.2);
-  border-bottom: 3px solid rgba(0, 0, 0, 0.2); }
+  border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 60px; }
 
 .left-side #task {
   width: 100%;
