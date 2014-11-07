@@ -6,7 +6,8 @@ $(document).ready(function () {
 
     if (e.which == 13) {
       var value = $(this).val();
-      $('.task-list').append('<li class="task"><p> '+value+'</p></li>');
+      $('.no-task-notice').hide();
+      $('.task-list').prepend('<li class="task incomplete"><p> '+value+'</p><span class="state">incomplete</span></li>');
       $(this).val('');
     }
 
@@ -27,7 +28,8 @@ $(document).ready(function () {
   // add task from textarea
   $('#large-task-button').on('mousedown', function () {
     var value = $('#large-task').val();
-    $('.task-list').append('<li class="task"><p> '+value+'</p></li>');
+    $('.no-task-notice').hide();
+    $('.task-list').prepend('<li class="task incomplete"><p> '+value+'</p><span class="state">incomplete</span></li>');
   })
   .on('mouseup', function () {
     $('#large-task-button').hide();
@@ -58,6 +60,8 @@ $(document).ready(function () {
   });
 
   // iterate and sort 2 states
+  // this probably isnt need since there is
+  // no persistence
   $('.task').each(function (i) {
     if ($(this).is('.complete')) {
       $(this).find('.state').text('');
