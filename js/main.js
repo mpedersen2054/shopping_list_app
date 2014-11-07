@@ -55,7 +55,7 @@ $(document).ready(function () {
 
   });
 
-  // sort 2 states
+  // iterate and sort 2 states
   $('.task').each(function (i) {
     if ($(this).is('.complete')) {
       $(this).find('.state').text('complete');

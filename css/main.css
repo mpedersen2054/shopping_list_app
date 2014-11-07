@@ -158,6 +158,15 @@ h1, h2, h3, h4, h5, h6 {
     color: #eb7260;
     font-weight: bold;
     text-decoration: none; }
+  .top-nav .fa-github {
+    color: #333;
+    opacity: 0.7; }
+  .top-nav .fa-facebook {
+    color: #3b5998;
+    opacity: 0.7; }
+  .top-nav .fa-twitter {
+    color: #55acee;
+    opacity: 0.7; }
 
 .jumbotron {
   background-color: #354458;
