@@ -42,6 +42,7 @@ $(document).ready(function () {
     if ($(this).is('.complete')) {
       $(this).removeClass('complete');
       $(this).addClass('incomplete');
+      $(this).find('.state').show().text('incomplete');
       $('.task-list').prepend($(this));
       $(this).css('opacity', '1.0');
 
@@ -49,6 +50,7 @@ $(document).ready(function () {
     } else {
       $(this).removeClass('incomplete');
       $(this).addClass('complete');
+      $(this).find('.state').hide();
       $('.task-list').append($(this));
       $(this).css('opacity', '0.5');
     }
@@ -58,7 +60,7 @@ $(document).ready(function () {
   // iterate and sort 2 states
   $('.task').each(function (i) {
     if ($(this).is('.complete')) {
-      $(this).find('.state').text('complete');
+      $(this).find('.state').text('');
       $('.task-list').append($(this));
       $(this).css('opacity', '0.5');
     } else {
